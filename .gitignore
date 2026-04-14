@@ -1,0 +1,22 @@
+# Virtual environment
+env/
+.venv/
+venv/
+
+# Build / distribution
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
