@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bibtex_squeezer"
+version = "0.1.0"
+description = "Squeeze BibTeX files by using official (IEEE) abbreviations and removing optional fields."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "bibtexparser>=2.0.0b1",
+]
+
+[project.scripts]
+bibtex_squeezer = "bibtex_squeezer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
