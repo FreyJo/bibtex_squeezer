@@ -369,6 +369,8 @@ IEEE_WORD_ABBREVIATIONS: dict[str, str] = {
     # U
     "Ultrasonic": "Ultrason.",
     "University": "Univ.",
+    "Universität": "Univ.",
+    r"Universit\"at": "Univ.",
     # V
     "Vacuum": "Vac.",
     "Vehicular": "Veh.",
